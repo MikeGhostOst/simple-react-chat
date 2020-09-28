@@ -1,0 +1,21 @@
+.text-form {
+  height: 75px;
+  padding: 0 20px;
+  border-top: solid black 1px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.text-form > .label {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text-form > .input {
+  padding: 5px;
+}
+
+.text-form > .input:focus {
+  outline: solid black 2px;
+}

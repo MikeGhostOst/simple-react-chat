@@ -1,0 +1,57 @@
+.message {
+  display: flex;
+  flex-direction: row;
+}
+
+.message.last {
+  margin-bottom: 10px;
+}
+
+.message.other-user {
+  justify-content: flex-start;
+}
+
+.message.current-user {
+  justify-content: flex-end;
+}
+
+.message.other-user > .container {
+  margin-left: 10px;
+}
+
+.message.current-user > .container {
+  margin-right: 10px;
+}
+
+.message > .container {
+  max-width: 50%;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.message > .container > .header {
+  padding: 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.message > .container > .header > .user-name {
+  color: white;
+}
+
+.message > .container > .header > .delete-button {
+  margin-left: 10px;
+}
+
+.message > .container > .text {
+  padding: 8px;
+  border-left: solid rgb(73, 77, 78) 1px;
+  border-right: solid rgb(73, 77, 78) 1px;
+  border-bottom: solid rgb(73, 77, 78) 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  word-wrap: break-word;
+}

@@ -1,0 +1,43 @@
+.join {
+  height: 100vh;
+  display:flex;
+}
+
+.join > .container {
+  margin: auto;
+  align-items: center;
+  width: 400px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.join > .container > .label {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.join > .container > .button {
+  margin-top: 50px;
+  height: 40px;
+  width: 90%;
+  background-color: rgb(135, 146, 157);
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.join > .container > .button:active {
+  background-color: rgb(102, 110, 118);
+}
+
+.join > .container > .input {
+  padding: 10px;
+}
+
+.join > .container > .caption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

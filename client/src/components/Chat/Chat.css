@@ -1,0 +1,16 @@
+.chat {
+  height: 100vh;
+  display:flex;
+}
+
+.chat > .container {
+  margin: auto;
+  width: 800px;
+}
+
+.chat > .container > .header {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: right;
+  border-bottom: solid black 1px;
+}
